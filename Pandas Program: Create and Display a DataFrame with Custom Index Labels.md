@@ -17,8 +17,17 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+import numpy as np
+exam_data = {'name': ['Kimnamjoon', 'Suga', 'Jungkook', 'Jimin', 'J Hope'],'score': [12.5, 9, 16.5, np.nan, 9],
+    'attempts': [0, 3, 2, 3, 2],'qualify': ['yes', 'no', 'yes', 'no', 'no']}
+labels=[1,2,3,4,5]
+print(pd.DataFrame(exam_data,index=labels))
+```
 
 ## Output
+<img width="1224" height="243" alt="image" src="https://github.com/user-attachments/assets/6faebdf8-c0f7-4a8c-93c1-889475ffa9e8" />
 
 ## Result
+program has been successfully completed
